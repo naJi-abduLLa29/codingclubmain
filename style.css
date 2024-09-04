@@ -1,0 +1,143 @@
+
+body{
+    background-color: black;
+}
+
+/* Maindiv */
+
+.maindivna{
+    background-color: black;
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+
+/* logo */
+
+.dilogo{
+    padding-top: 50px;
+    position: absolute;
+    padding-left: 50px;
+}
+
+
+.imlogo{
+    width: 100px;
+}
+
+
+
+/* coding club */
+
+/* .codingclub{
+    color: #EEEBDD;
+    font-size: 130px;
+    font-family:inter ;
+    font-weight:800;
+    margin: auto;
+}
+
+.codinggr{
+    display: grid;
+    place-items: center;
+    height: 730px;
+    width: 100%;
+    
+} */
+
+/* we focus on */
+
+.wefocusdiv{
+    color: #CE1212;
+    position: absolute;
+    font-size: 30px;
+    font-family: inter;
+    top: 65.099%;
+    left: 45%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+
+
+
+
+
+
+/* creativitydiv */
+.divcreativity{
+    position: absolute;
+    top: 63%;
+    left: 53%;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* import */
+
+
+
+
+.hidden {
+    opacity:0;
+  }
+  .console-container {
+   
+    font-family:inter;
+    font-size:30px;
+    display:inline-block;
+  
+    
+    
+  }
+    
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    
+  }
+/* animation */
+
+  .hi11{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+    font-size: 130px;
+   
+    font-weight: 800;
+    color: #EEEBDD;
+    text-align: center;
+    font-family: inter;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.leRotateYZoomIn span { animation-name: leRotateYZoomIn }
+@keyframes leRotateYZoomIn {
+    from {
+        transform: perspective(600px) translate3d(0, -60px, -2000px) rotateY(75deg);
+        opacity: 0
+    }
+    5% { transform: perspective(600px) translate3d(0, -60px, -1500px) rotateY(75deg) }
+}

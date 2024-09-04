@@ -1,0 +1,88 @@
+@media screen and (max-width: 600px)
+
+{
+
+body{
+    background-color: black;
+}
+
+    .maindivna{
+        background-color: black;
+        width: 400px;
+        height: 830px;
+       
+        
+    }
+    
+    /* logo */
+    
+    .dilogo{
+        padding-top: 20px;
+        position: absolute;
+        padding-left: 10px;
+    }
+    
+    
+    .imlogo{
+        width: 100px;
+    }
+    
+    
+    
+    /* coding club */
+    
+    /* .codingclub{
+        color: #EEEBDD;
+        font-size: 80px;
+        font-family:inter;
+        font-weight:500;
+        padding-left: 10px;
+    }
+    
+    .codinggr{
+        
+        width: 100%;
+        height: 100%;
+    } */
+
+/* new coding club */
+
+.hi11{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+    font-size: 50px;
+   
+    font-weight: 800;
+    color: #EEEBDD;
+    text-align: center;
+    font-family: inter;
+}
+
+.wefocusdiv{
+    color: #CE1212;
+    position: absolute;
+    font-size: 20px;
+    font-family: inter;
+    top: 40.5%;
+    left: 25%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.divcreativity{
+    position: absolute;
+    top: 39%;
+    left: 47%;
+       
+}
+.console-container {
+   
+    font-family:inter;
+    font-size:20px;
+    display:inline-block;
+
+}
